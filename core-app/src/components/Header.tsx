@@ -5,15 +5,7 @@ const Header: React.FC = () => {
     const { role, loginAs } = useAuth();
 
     return (
-        <header
-            style={{
-                padding: "10px",
-                borderBottom: "1px solid #ccc",
-                marginBottom: "20px",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center"
-            }}>
+        <header>
             <h2 style={{ margin: 0 }}>🎶 React MFE Shell</h2>
             <div>
                 <span style={{ marginRight: "10px" }}>

@@ -16,7 +16,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
     return (
         <AuthContext.Provider value={{ role, loginAs: setRole }}>
-            <div style={{ marginBottom: "10px" }}>
+            <div>
                 <button onClick={() => setRole("admin")}>Login as Admin</button>
                 <button onClick={() => setRole("user")}>Login as User</button>
                 <p>
